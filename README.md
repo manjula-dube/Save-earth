@@ -1,4 +1,4 @@
-# AI--Questions
+# Save your earth
 
 A small question I want every Software Developer to solve it and no worries even if you are not able to solve it in a day.
 Because it took me one week to get through the solution:...
