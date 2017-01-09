@@ -51,7 +51,52 @@ not need to interact with the ‘document object model’ (DOM).
       return moves;
       } );
     ```
-   
-
+  Notes on parameters to this function:
+  - The ‘rocks’ variable contains the list of rocks visible in the sensor grid. They are in no
+    particular order, and each rock notification object contains the distance from the rock to the
+  - Paddle, and the angle (in radians) of the line connecting the rock to the Paddle.
+    The ‘paddle_y’ variable function is the current y-location of the Paddle. 
+    
+    (See Image 3 below)
+    
+    [Image 3](https://s30.postimg.org/avzxi4xk1/Screen_Shot_2017_01_09_at_6_22_46_PM.png)
+    
+    * The ‘moves’ array returned by the ‘notify_player()’ function specify the moves you would like your
+    paddle to make in the subsequent updates. A valid move is one of -1 (move up), 0 (stay where you
+    are), and 1 (move down). So, returning [-1, 1, 0] means "move up, then move down, then stay where
+    you are". 
+    
+    * The ‘moves’ returned will overwrite any previous list of moves provided by the AI in an
+    earlier invocation of notify_player().
+    
+    # Game loop
+  
+      The Game Loop in pseudo code:
+      
+      ```javascript
+        1. moves = []
+        2. Loop:
+          a. Move each rock 1 grid point to the right
+          b. If a rock is at x=80
+              i. If the rock has not been intercepted by the Paddle, then Game
+              Over
+              ii. Otherwise, remove the rock from the sensor grid
+          c. If there are no rocks in the region (x=0..20), then add a new rock
+              along the x=0 axis.
+          d. If a rock has been added to / removed from the sensor grid, call the
+             notify_player(rocks, paddle_y), function, storing the return value in
+             the 'moves' variable
+          e. If len(moves) > 0
+            i. Then next_move = moves.pop()
+            ii. Otherwise next_move = 0
+          f. Paddle.Y += next_move
+      ```
+      
+      Try out for a solution,And if find any difficulty finding the solution,Here's the solution:
+      
+      [Solution on JSFiddle] (http://jsfiddle.net/zsvmuyj2/2/)
+      
+      
+      Thanks for solving keep coding :)
   
   
