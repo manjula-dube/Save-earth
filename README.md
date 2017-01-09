@@ -92,11 +92,13 @@ not need to interact with the ‘document object model’ (DOM).
           f. Paddle.Y += next_move
       ```
       
-      Try out for a solution,And if find any difficulty finding the solution,Here's the solution:
+      *Try out for a solution,And if find you any difficulty finding the solution,
+      
+      Below is the solution:
       
       [Solution on JSFiddle] (http://jsfiddle.net/zsvmuyj2/2/)
       
       
-      Thanks for solving keep coding :)
+      Thanks for solving Keep coding guys :)*
   
   
