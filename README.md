@@ -96,7 +96,7 @@ not need to interact with the ‘document object model’ (DOM).
       
       Below is the solution:
       
-      [Solution on JSFiddle] (http://jsfiddle.net/zsvmuyj2/2/)
+      [My Solution] (http://jsfiddle.net/zsvmuyj2/2/)
       
       
       Thanks for reading & Keep coding guys :)*
