@@ -92,7 +92,7 @@ not need to interact with the ‘document object model’ (DOM).
           f. Paddle.Y += next_move
       ```
       
-      *Try out for a solution,And if find you any difficulty finding the solution,
+      *Try to find out a solution to save your earth,And if you find any difficulty finding the solution,
       
       Below is the solution:
       
