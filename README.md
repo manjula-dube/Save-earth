@@ -99,6 +99,6 @@ not need to interact with the ‘document object model’ (DOM).
       [Solution on JSFiddle] (http://jsfiddle.net/zsvmuyj2/2/)
       
       
-      Thanks for solving Keep coding guys :)*
+      Thanks for reading & Keep coding guys :)*
   
   
