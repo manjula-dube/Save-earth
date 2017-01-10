@@ -47,7 +47,7 @@ not need to interact with the ‘document object model’ (DOM).
       defender.start(function notify_player(rocks, paddle_y){
       var moves = [];
       // compute your moves
-      // ...
+      // Write your solution here 
       return moves;
       } );
     ```
