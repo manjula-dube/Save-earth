@@ -22,13 +22,13 @@ not need to interact with the ‘document object model’ (DOM).
   rocks.
 - The action takes place on an 80x10 sensor grid:(See Image 1 for reference)
 
-  [Image 1](https://s23.postimg.org/yzzlo4iwr/Screen_Shot_2017_01_09_at_5_23_23_PM.png)
+  ![Image 1](https://s23.postimg.org/yzzlo4iwr/Screen_Shot_2017_01_09_at_5_23_23_PM.png?raw=true)
 
 - Note that (x=0, y=0) is the top-left, and (x=79, y=9) is the bottom-right.
 - On the sensor grid you will see rocks hurling towards the Earth (which is itself off-screen somewhere
   to the right). The only thing that stands between the Earth and total annihilation is the Paddle:(See Image 2 for reference)
   
-  [Image 2](https://s29.postimg.org/gkcp37vsn/Screen_Shot_2017_01_09_at_6_14_37_PM.png)
+  ![Image 2](https://s29.postimg.org/gkcp37vsn/Screen_Shot_2017_01_09_at_6_14_37_PM.png?raw=true)
   
  - The Paddle is located along the x=80 axis, and can only move ‘up’ and ‘down’. You will need to
    create an AI for The Paddle so that it intercepts the rocks and saves the Earth.
@@ -59,7 +59,7 @@ not need to interact with the ‘document object model’ (DOM).
     
     (See Image 3 below)
     
-    [Image 3](https://s30.postimg.org/avzxi4xk1/Screen_Shot_2017_01_09_at_6_22_46_PM.png)
+    ![Image 3](https://s30.postimg.org/avzxi4xk1/Screen_Shot_2017_01_09_at_6_22_46_PM.png?raw=true)
     
     * The ‘moves’ array returned by the ‘notify_player()’ function specify the moves you would like your
     paddle to make in the subsequent updates. A valid move is one of -1 (move up), 0 (stay where you
